@@ -1,3 +1,3 @@
 GIT Tutorials
 
-testing of GIT
+This is to learn and test GIT.
