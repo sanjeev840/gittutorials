@@ -1,0 +1,82 @@
+==============================
+GIT:
+
+initialize git in the local folder
+git init
+
+
+==show the current name and email
+git config user.name 
+git config user.email
+
+
+==to set user and email:
+git config user.name sanjeev
+git config user.email sanjeev.840@gmail.com
+
+==connects local to remote
+git remote add origin <repository url> 
+git remote add origin https://github.com/sanjeev840/demo1.git
+
+
+==git status
+git add file1
+git commit -m "created file1"
+  
+vim file2  -- new file
+vim file1  -- file1 modified
+git add .
+git commit -m "file1 modified, file2 added"
+git status
+
+==push to git master
+git push origin master
+
+
+==move from working tree to staging
+git add file1
+git add file1 file2 file3
+git add .
+
+
+==to commit the changes
+git commit -m "message"
+
+
+==to check status
+git status
+
+
+==to upload the file to remote
+git push origin master
+         
+origin -- url shortcut
+master -- brachname
+
+
+git branch
+
+git branch feature
+
+to move to a branch:
+git checkout feature
+
+to merge a branch, checkout where u want to merge:
+git checkout master
+git merge feature
+
+to delete a branch
+git branch -d feature
+
+
+set setting for push, setting origin as master:
+git push -u origin master
+
+next time to push to master:
+git push
+
+to copy files from git
+git clone <url of files/folder in git>
+
+to get update in the changes
+git pull origin master
